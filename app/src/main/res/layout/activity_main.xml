@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/navoiy"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:padding="16dp"
+                    android:shadowColor="#000000"
+                    android:shadowDy="2"
+                    android:shadowDx="2"
+                    android:shadowRadius="2"
+                    android:text="Alisher Navoiy"
+                    android:textColor="#fff"/>
+                <FrameLayout
+                    android:id="@+id/iteamNavoiy"
+                    android:clickable="true"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+                
+                
+                
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/beruniy"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:padding="16dp"
+                    android:shadowColor="#000000"
+                    android:shadowDy="2"
+                    android:shadowDx="2"
+                    android:shadowRadius="2"
+                    android:text="Al Beruniy"
+                    android:textColor="#fff"/>
+                <FrameLayout
+                    android:id="@+id/iteamBeruniy"
+                    android:clickable="true"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ulugbek"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:padding="16dp"
+                    android:shadowColor="#000000"
+                    android:shadowDy="2"
+                    android:shadowDx="2"
+                    android:shadowRadius="2"
+                    android:text="Mirzo Ulug'bek"
+                    android:textColor="#fff"/>
+                <FrameLayout
+                    android:id="@+id/iteamUlugbek"
+                    android:clickable="true"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bobur"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:padding="16dp"
+                    android:shadowColor="#000000"
+                    android:shadowDy="2"
+                    android:shadowDx="2"
+                    android:shadowRadius="2"
+                    android:text="Zahiriddin Muhammad Bobur"
+                    android:textColor="#fff"/>
+                <FrameLayout
+                    android:id="@+id/iteamBobur"
+                    android:clickable="true"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
